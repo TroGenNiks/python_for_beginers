@@ -21,11 +21,32 @@ for i in list4:
     if str(i).isnumeric() and i>6 :
         print(i)
 
+while loop
+i = 1
+while i < 6:
+  print(i)
+  i += 1
+#
+while (True):
+      inp = int(input("Enter a Number\n"))
+      if inp > 100:
+          print("Congrats you have entered a number greater than 100\n")
+          break
+      else:
+          print("Try again!\n")
+          continue
 
- #  breaking conditions in for  loop
+
+
+  # breaking conditions in for  loop
 
 fruits = ["apple", "banana", "cherry"]
 for x in fruits:
   print(x)
   if x == "banana":
     break
+
+
+
+
+
